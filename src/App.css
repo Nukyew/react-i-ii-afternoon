@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  background-color: #2b303a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-logo {
+  color: #2b303a;
+  font-weight: 900;
+  margin-left: 40px;
+  font-size: 1.5rem;
+}
+
+.App-header {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #34A6DA;
+  z-index: 2;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-section {
+  width: 100vw;
+  height: 100vh;
+  background: #2b303a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translate(0%, -10%)
+}
+
+.list-app {
+  background: white;
+  width: 80vw;
+  height: 500px;
+  transform: translate(0%, 0%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.controls {
+  color: white;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.info-section {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.current-page {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 10%;
+  height: 50px;
+  display: flex;
+}
+
+.from::before {
+  content: "From: ";
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.job-title::before {
+  content: "Job Title: ";
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.employer::before {
+  content: "Employer: ";
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.favorite-movies::before {
+  content: "Favorite Movies:";
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+li {
+  text-align: left;
+}
